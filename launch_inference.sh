@@ -1,7 +1,7 @@
 #!/bin/bash
 
 MODEL_PATH="$HOME/workspace/pytorch-paligemma/paligemma-weights/paligemma-3b-pt-224"
-PROMPT="this building is "
+PROMPT="what is name of this building "
 IMAGE_FILE_PATH="test_images/pic1.jpg"
 MAX_TOKENS_TO_GENERATE=100
 TEMPERATURE=0.8
